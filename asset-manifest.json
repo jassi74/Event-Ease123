@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Event-Ease123/static/css/main.528ac2f4.css",
+    "main.js": "/Event-Ease123/static/js/main.7b3222f6.js",
+    "index.html": "/Event-Ease123/index.html",
+    "main.528ac2f4.css.map": "/Event-Ease123/static/css/main.528ac2f4.css.map",
+    "main.7b3222f6.js.map": "/Event-Ease123/static/js/main.7b3222f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.528ac2f4.css",
+    "static/js/main.7b3222f6.js"
+  ]
+}
