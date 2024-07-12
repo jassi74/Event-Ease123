@@ -1,4 +1,5 @@
-import React, { useEffect, useContext } from "react";
+import React, {  useContext } from "react";
+// import React, { useEffect, useContext } from "react";
 import "../Css/LastBookingDetails.css"; 
 import BsContext from "../Context/BsContext"; 
 import { seats } from "../data"; 
@@ -11,10 +12,10 @@ const LastBookingDetails = () => {
   const { handleGetLastBooking, lastBookingDetails } = context;
 
   
-  useEffect(() => {
-    handleGetLastBooking(); 
+  // useEffect(() => {
+  //   handleGetLastBooking(); 
     
-  }, []);
+  // }, []);
 
   return (
     <div className="last_booking_details_container_main">
