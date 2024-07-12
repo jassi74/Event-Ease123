@@ -2,7 +2,7 @@ import LastBookingDetails from "../Components/LastBookingDetails";
 import SelectMovie from "../Components/SelectMovie";
 import SelectSeats from "../Components/SelectSeats";
 import TimeShedule from "../Components/TimeShedule";
-
+import { Link } from 'react-router-dom';
 import "../Css/Home.css";
 import BsContext from "../Context/BsContext";
 import { useContext } from "react";
@@ -84,6 +84,7 @@ const Home = (props) => {
               className="BN-btn ">
               Book NoW
             </button>
+            <Link to='/registration'>Register</Link>
           </div>
         </div>
       </div>
