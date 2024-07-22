@@ -5,15 +5,17 @@ import BsState from './Context/BsState';
 import Home from './Pages/Home';
 // import LoginPage from './LoginPage';
 // import RegistrationPage from './RegistrationPage';
+import Introduction from './Introduction';
 
 function App() {
   return (
     <div className="App">
+     <Introduction/>
      {<BsState><Home/></BsState>}
        
     {/* <BrowserRouter>
       <Routes>
-      <Route path='/'element={<LoginPage/>}/>
+      <Route path='/Event-Ease123'element={<LoginPage/>}/>
         <Route path='/Event-Ease123'element={<LoginPage/>}/>
         <Route path='/registration'element={<RegistrationPage/>}/>
         <Route path='/home'element={<BsState><Home/></BsState>}/>

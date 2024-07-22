@@ -20,6 +20,7 @@
   }
   .form-check-label {
     padding: 10px 15px;
+    height: 20px;
     font-size: 18px;
     border: 2px solid rgb(77, 144, 90);
     margin: 10px;

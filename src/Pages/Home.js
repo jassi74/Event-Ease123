@@ -2,7 +2,7 @@ import LastBookingDetails from "../Components/LastBookingDetails";
 import SelectMovie from "../Components/SelectMovie";
 import SelectSeats from "../Components/SelectSeats";
 import TimeShedule from "../Components/TimeShedule";
-import { Link } from 'react-router-dom';
+
 import "../Css/Home.css";
 import BsContext from "../Context/BsContext";
 import { useContext } from "react";
@@ -62,32 +62,49 @@ const Home = (props) => {
     <>
       {/* <Modal /> */}
       
-      <div className="container">
-        
-      <h1 className="title">Book My Show</h1>
-        <div className="selection_container">
-          <div className="wrapper">
-            <div className="select_movie_component">
-              <SelectMovie />
-            </div>
-            <div className="last_booking_details_container">
-          <LastBookingDetails/>
-            </div>
-          </div>
-          <div className="time_seats_container">
-            <TimeShedule />
-            <SelectSeats />
-            <button
-              onClick={() => {
-                handleBookNow();
-              }}
-              className="BN-btn ">
-              Book NoW
+        <div className="container">
+          <div className="select_movie_component"><SelectMovie /></div>
+          <div className="contain_box">
+            <div className="time_seats_container"><TimeShedule /></div>
+            <div className="time_seats_container"> <SelectSeats /></div>
+            <div><button
+                    onClick={() => {
+                      handleBookNow();
+                    }}
+                    className="BN-btn ">
+                    Book Now
             </button>
-            <Link to='/registration'>Register</Link>
+            </div>
           </div>
-        </div>
-      </div>
+          
+          
+          <div className="last_booking_details_container"><LastBookingDetails/></div>
+          </div>
+        {/* <h1 className="title">Event Ease</h1>
+          <div className="selection_container">
+            <div className="wrapper">
+              <div className="select_movie_component">
+                <SelectMovie />
+              
+            <div className="time_seats_container">
+              <TimeShedule />
+              <SelectSeats />
+              <button
+                onClick={() => {
+                  handleBookNow();
+                }}
+                className="BN-btn ">
+                Book Now
+              </button>
+            </div>
+              <div className="last_booking_details_container">
+            <LastBookingDetails/>
+              </div>
+            </div>
+              
+            </div>
+          </div> */}
+        {/* </div> */}
     </>
   );
 };

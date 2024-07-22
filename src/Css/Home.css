@@ -1,4 +1,17 @@
-.container {
+.container{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.select_movie_component{
+  margin-left: 10px;
+}
+
+
+.time_seats_container{
+  align-items: center;
+}
+/* .container {
     width: 80%;
     margin: 30px auto;
     margin-top: 0px;
@@ -84,4 +97,4 @@
      
       
      }
-  }
+  } */
