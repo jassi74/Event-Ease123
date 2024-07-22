@@ -7,10 +7,30 @@
   margin-left: 10px;
 }
 
-
-.time_seats_container{
-  align-items: center;
+.SS_wrapper{
+  margin-bottom: 50px;
 }
+.contain_box{
+  margin-bottom: 20px;
+}
+.home_button{
+ margin-top: 150px;
+ margin-left: 48%;
+}
+.home_button button{
+  font-size: 20px;
+  background-color: rgb(77, 144, 90) ;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.time_seats_container2{
+  
+  margin-bottom: 100px;
+}
+
+
+
 /* .container {
     width: 80%;
     margin: 30px auto;

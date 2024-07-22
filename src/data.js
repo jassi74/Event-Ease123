@@ -1,4 +1,4 @@
-let moviesList = ['Justice League', 'Tenet', 'Fast X', 'Planet of the Apes', 'Come Play'];
+let moviesList = ['ACCIDENT OR CONSIPRACY', 'KALKI', 'TWISTERS', 'DESPICABLE', 'KILL'];
 let moviesimg = ['https://m.media-amazon.com/images/M/MV5BZjBmNmU2N2QtYzU4OC00YjZiLWJkOWEtOTYwZmE1NmEyOTJiXkEyXkFqcGc@._V1_.jpg'
 , 'https://m.media-amazon.com/images/M/MV5BMTM3ZGUwYTEtZTI5NS00ZmMyLTk2YmQtMWU4YjlhZTI3NjRjXkEyXkFqcGc@._V1_QL75_UX190_CR0,8,190,281_.jpg'
 , 'https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/twisters-et00387070-1720594533.jpg'

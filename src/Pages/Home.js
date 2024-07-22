@@ -65,9 +65,10 @@ const Home = (props) => {
         <div className="container">
           <div className="select_movie_component"><SelectMovie /></div>
           <div className="contain_box">
-            <div className="time_seats_container"><TimeShedule /></div>
-            <div className="time_seats_container"> <SelectSeats /></div>
-            <div><button
+            <div className="time_seats_container1"><TimeShedule /></div>
+            <div className="time_seats_container2"> <SelectSeats /></div>
+            <div className="home_button">
+              <button
                     onClick={() => {
                       handleBookNow();
                     }}

@@ -12,8 +12,15 @@ const SelectSeats = () => {
   return (
     <>
       <div className="SS_wrapper">
-        <h1 className="SS_heading">Select Seats :-</h1>
+        <h1 className="SS_heading">Select Seats</h1>
         <div className="SS_main_container">
+        
+        
+            <div className="seat_img">
+              <img src="https://i.ibb.co/B3kSb3y/Screenshot-2024-07-22-at-2-32-21-PM.png" alt="image of clock"/>
+            </div>
+         
+          {/* <div className="seat_list"> */}
           {seats.map((el, index) => {
             return (
               <SeatsInput
@@ -27,6 +34,8 @@ const SelectSeats = () => {
               />
             );
           })}
+          {/* </div> */}
+          
         </div>
       </div>
     </>
