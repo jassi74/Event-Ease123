@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
      
-   
+{/*    
     <BrowserRouter>
       <Routes>
       
@@ -19,7 +19,7 @@ function App() {
         <Route path='/home'element={<BsState><Home/></BsState>}/>
           <Route path='*'element={<div style={{color: "red", margin: "auto",textAlign:"center",fontSize:"40px"}}>Error 404</div>}/>
       </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
    
     </div>
   );
