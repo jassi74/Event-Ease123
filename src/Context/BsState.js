@@ -102,6 +102,7 @@ const BsState = (props) => {
   return (
     
     <BsContext.Provider
+    
       value={{
         handlePostBooking,
         handleGetLastBooking,
