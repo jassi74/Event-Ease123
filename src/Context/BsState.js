@@ -27,7 +27,7 @@ const BsState = (props) => {
   
   const [lastBookingDetails, setLastBookingDetails] = useState(null);
 
-  //  save booking details at the backend
+  //  save booking details
   const handlePostBooking = async () => {
     
     const response = await fetch(
