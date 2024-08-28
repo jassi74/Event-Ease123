@@ -19,7 +19,7 @@ const Introduction = () => {
         </div>
         <div style={{textAlign:"center"}}>
             <h1 >EVENT EASE</h1>
-            <p style={{fontSize:'24px'}}>Experience seamless movie ticket booking and seat selection at your fingertips with our intuitive platform!</p>
+            <p style={{fontSize:'24px'}}>Experience seamless movie ticket booking and seat selection at your fingertips with our intuitive platform.</p>
         </div>
         
         <div className='intro_button'>
